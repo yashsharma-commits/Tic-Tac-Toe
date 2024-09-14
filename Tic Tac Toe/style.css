@@ -1,0 +1,52 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+.app{
+    width: 80%;
+    margin: auto;
+    max-width: 600px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    /* border: 2px solid black; */
+    /* background-color: black; */
+    padding: 20px 0px;
+}
+.box{
+    width: 80%;
+    border: 2px solid black;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 30px;
+}
+.box button{
+    min-height: 100px;
+    /* margin: 10px 20px; */
+    /* border-radius: 50%; */
+    cursor: pointer;
+    border: 3px solid black;
+    background-color: white;
+    font-size: 50px;
+
+}
+.turn{
+    margin-top: 20px;
+}
+.reset-btn{
+    width: 40%;
+    margin: auto;
+    margin-top: 30px;
+    min-height: 40px;
+    font-size: 29px;
+    cursor: pointer;
+    background-color: white;
+}
+.heading{
+    font-size: 47px;
+}
